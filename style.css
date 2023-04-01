@@ -32,6 +32,7 @@
   line-height: 74%;
   font-weight: 700;
   color: #6070ff;
+  text-decoration: none;
 }
 
 .hambuger {
@@ -84,19 +85,30 @@
   font-weight: 600;
 }
 
+
 .social-media-icon {
-  display: flex;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
 }
+
+.social-media {
+    padding: 0;
+}
+
+/* .social-media-icon {
+  display: flex;
+} */
 
 .social-media-icon li {
   list-style-type: none;
 }
 
-.social-media {
+/* .social-media {
   padding: 10px;
   color: rgba(80, 95, 121, 1);
   font-weight: 900;
-}
+}// */
 
 .second-section {
   display: grid;
